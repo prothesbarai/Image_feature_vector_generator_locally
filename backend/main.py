@@ -3,7 +3,7 @@ from PIL import Image
 import io
 import torch
 import gc
-
+ 
 from starlette.middleware.cors import CORSMiddleware
 
 app = FastAPI()
